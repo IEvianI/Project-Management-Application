@@ -49,7 +49,7 @@ export default function Index({ auth, users, queryParams = null, success }) {
       header={
         <div className="flex justify-between items-center">
           <h2 className="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            Projets
+            Utilisateurs
           </h2>
           <Link
             href={route("user.create")}
